@@ -82,3 +82,26 @@ body {
 .skill:hover {
     background-color: #e0e0e0; 
 }
+table {
+    width: 100%;
+    border-collapse: collapse; /* Merges borders */
+}
+
+th, td {
+    border: 1px solid #ccc; /* Border for cells */
+    padding: 10px; /* Padding inside cells */
+    text-align: left; /* Aligns text to the left */
+}
+
+th {
+    background-color: #f2f2f2; /* Light gray background for header */
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9; /* Zebra stripe for even rows */
+}
+
+tbody tr:hover {
+    background-color: #eaeaea; /* Highlight row on hover */
+}
+
