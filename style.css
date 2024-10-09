@@ -21,7 +21,6 @@ body {
   margin-bottom: 0;
 }
 .header {
-  margin-top: 10px;
   background-color: rgb(33, 67, 82);
   color: whitesmoke;
   padding-top: 9px;
@@ -62,46 +61,99 @@ body {
 .divider {
   border-bottom: 2px solid black;
   margin-top: 15px;
-  margin-bottom: 16px;
+  margin-bottom: 9px;
 }
 .skills-list {
-    list-style-type: none; 
-    padding: 0; 
-
+  list-style-type: none;
+  padding: 0;
 }
 
 .skill {
-    background-color: #f0f0f0; 
-    border-radius: 5px; 
-    padding: 10px; 
-    margin-bottom: 8px;
-    transition: background-color 0.3s;
-    border-left: 3px solid rgb(33, 67, 82);
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 8px;
+  transition: background-color 0.3s;
+  border-left: 3px solid rgb(33, 67, 82);
 }
 
 .skill:hover {
-    background-color: #e0e0e0; 
+  background-color: #e0e0e0;
 }
 table {
-    width: 100%;
-    border-collapse: collapse; /* Merges borders */
+  width: 100%;
+  border-collapse: collapse;
 }
 
-th, td {
-    border: 1px solid #ccc; /* Border for cells */
-    padding: 10px; /* Padding inside cells */
-    text-align: left; /* Aligns text to the left */
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
 }
 
 th {
-    background-color: #f2f2f2; /* Light gray background for header */
+  background-color: #f2f2f2;
 }
 
 tbody tr:nth-child(even) {
-    background-color: #f9f9f9; /* Zebra stripe for even rows */
+  background-color: #f9f9f9;
 }
 
 tbody tr:hover {
-    background-color: #eaeaea; /* Highlight row on hover */
+  background-color: #eaeaea;
 }
 
+#contact-form {
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+#contact-form div {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: rgb(33, 67, 82);
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  background-color: rgb(64, 85, 94);
+}
+.footer {
+  background-color: rgb(33, 67, 82);
+  color: rgb(160, 159, 159);
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: 20px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
